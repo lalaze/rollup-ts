@@ -1,0 +1,1 @@
+{"version":3,"file":"index.es.js","sources":["../src/index.ts"],"sourcesContent":["console.log('123')"],"names":["console","log"],"mappings":"AAAAA,QAAQC,IAAI"}

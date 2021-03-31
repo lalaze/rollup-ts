@@ -1,0 +1,28 @@
+{
+  "name": "lmap-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:es": "rollup -c rollup.config.js --file ./dist/index.es.js --format es --sourcemap "
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://dev.linkcm.com:9000/qizema/lmap-sdk.git"
+  },
+  "author": "lalaze",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@rollup/plugin-replace": "^2.4.2",
+    "rollup": "^2.44.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.2.3"
+  }
+}
